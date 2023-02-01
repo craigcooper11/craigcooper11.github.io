@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Jekyll Resume Template</title>
+
+  <!-- Google font typography settings - defined in _config.yml -->
+  
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,300,800,700' rel='stylesheet' type='text/css'>
+  
+
+  <meta name="description" content="A resume template for Jekyll and GitHub Pages sites.">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="icon" type="image/x-icon" href="favicon.png" />
+</head>
+
+
+  <body class="theme-default">
+
+    <div class="wrapper" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="telephone" content=""/>
+      <meta itemprop="address" content=""/>
+
+      <header class="page-header">
+
+        <!-- You can turn off the avatar in _config.yml by setting to false -->
+        
+        <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
+        
+
+        <!-- Your name is defined in the _config.yml file -->
+        <h1 class="header-name" itemprop="name">Craig Cooper</h1>
+
+        <!-- To display contact info here, change `display_header_contact_info` value in _config.yml to true -->
+        
+
+        <div class="title-bar no-print">
+
+          <!-- Your title is also defined in the _config.yml file -->
+          <h2 class="header-title" itemprop="jobTitle">Sofware Engineer</h2>
+
+          <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
+          <!-- and guess where these are defined? Yup, you guessed it: the _config.yml file -->
+
+<ul class="icon-links">
+
+  <!-- GitHub link -->
+  
+  <li class="icon-link-item"><a target="_blank" href="https://github.com/craigcooper11" class="icon-link" itemprop="sameAs"><svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve" width="28">
+<path id="GitHub" fill-rule="evenodd" clip-rule="evenodd" fill="#D1CECC" d="M14.01,0C6.27,0-0.01,6.28-0.01,14.02
+  c0,6.19,4.02,11.45,9.59,13.3c0.7,0.13,0.96-0.3,0.96-0.68c0-0.33-0.01-1.21-0.02-2.38c-3.9,0.85-4.72-1.88-4.72-1.88
+  c-0.64-1.62-1.56-2.05-1.56-2.05c-1.27-0.87,0.1-0.85,0.1-0.85c1.41,0.1,2.15,1.44,2.15,1.44c1.25,2.14,3.28,1.52,4.08,1.16
+  c0.13-0.91,0.49-1.52,0.89-1.87c-3.11-0.35-6.38-1.56-6.38-6.93c0-1.53,0.55-2.78,1.44-3.76C6.37,9.17,5.89,7.74,6.65,5.81
+  c0,0,1.18-0.38,3.85,1.44c1.12-0.31,2.32-0.47,3.51-0.47c1.19,0.01,2.39,0.16,3.51,0.47c2.68-1.81,3.85-1.44,3.85-1.44
+  c0.76,1.93,0.28,3.35,0.14,3.71c0.9,0.98,1.44,2.23,1.44,3.76c0,5.38-3.28,6.57-6.4,6.92c0.5,0.43,0.95,1.29,0.95,2.6
+  c0,1.87-0.02,3.39-0.02,3.84c0,0.37,0.25,0.81,0.96,0.67c5.56-1.86,9.58-7.11,9.58-13.3C28.03,6.28,21.75,0,14.01,0z"/>
+</svg>
+</a></li>
+  
+
+  <!-- Twitter link -->
+  
+  
+  <!-- Medium link -->
+  
+
+  <!-- Dribbble link -->
+  
+
+  <!-- Facebook link -->
+  
+
+  <!-- LinkedIn link -->
+  
+  <li class="icon-link-item"><a target="_blank" href="https://www.linkedin.com/in/craig-c-51b405146/" class="icon-link" itemprop="sameAs"><svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve" width="28">
+<path id="LinkedIn" fill="#D1CECC" d="M18.82,15.09v3.61h-2.09v-3.37c0-0.85-0.3-1.42-1.06-1.42c-0.58,0-0.92,0.39-1.07,0.77
+  c-0.06,0.13-0.07,0.32-0.07,0.51v3.52h-2.09c0,0,0.03-5.71,0-6.3h2.09v0.89c0,0.01-0.01,0.01-0.01,0.02h0.01V13.3
+  c0.28-0.43,0.77-1.04,1.89-1.04C17.79,12.25,18.82,13.16,18.82,15.09z M9.18,18.7h2.09v-6.3H9.18V18.7z M10.24,9.36
+  c-0.72,0-1.19,0.47-1.19,1.09c0,0.61,0.45,1.09,1.16,1.09h0.01c0.73,0,1.18-0.48,1.18-1.09C11.39,9.84,10.95,9.36,10.24,9.36z
+   M28,14c0,7.73-6.27,14-14,14S0,21.73,0,14S6.27,0,14,0S28,6.27,28,14z M20.93,8.02c0-0.55-0.46-1-1.02-1H8.09
+  c-0.57,0-1.02,0.45-1.02,1v11.96c0,0.55,0.46,1,1.02,1h11.82c0.57,0,1.02-0.45,1.02-1V8.02z"/>
+</svg>
+</a></li>
+  
+
+  <!-- Instagram link -->
+  
+
+  <!-- Website link -->
+  
+
+</ul>
+
+
+        </div>
+
+        <div class="executive-summary" itemprop="description">
+          <p>Software developer with over 7 years of experience with full stack development. Knowledge of JavaScript, Jquery, cURL, API's, PHP, Unix, CSS, HTML, Node.js, Angular, Git, GitHub, Travis CI, Unit Testing.</p>
+        </div>
+
+        
+        
+
+      </header>
+
+      
+      <!-- begin Experience -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Experience</h2>
+        </header>
+
+        
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">IBM</h3>
+          <h4 class="resume-item-details" itemprop="description">Software Engineer &bull; April, 2019 &mdash; Present</h4>
+          <p class="resume-item-copy"><ul><li>Created python based OpenShift installer named OCP. OCP Installer provides menu-based CLI tool to make provisioning of Red Hat OpenShift clusters and IBM Cloud Paks for technology engineers, whether it's for a single cluster or hundreds of clusters. OCP Installer supports cluster creation on AWS, Azure, GCP, IBM Cloud and air-gap, and installs IBM Cloud Paks, Turbonomic and Instana with GitOps principles.</li> <li>Created Electron based app to interface with OCP.</li> <li>Installed and configured software applications and tested solutions for functionality.</li> <li>Reviewed project specifications and designed technology solutions that met or exceeded performance expectations.</li> <li>Coordinated with other engineers to evaluate and improve software and hardware interfaces.</li> </ul></p>
+        </div><!-- end of resume-item -->
+        
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">BCS ProSoft</h3>
+          <h4 class="resume-item-details" itemprop="description">Software Engineer &bull; August, 2017 &mdash; April, 2019</h4>
+          <p class="resume-item-copy"><ul><li>Wrote highly maintainable, solid code for software system, forming core framework and earning consistent praise from subsequent developers since initial version.</li> <li>Orchestrated efficient large-scale software deployments.</li> <li>Revised, modularized and updated old code bases to modern development standards, reducing operating costs and improving functionality.</li> </ul></p>
+        </div><!-- end of resume-item -->
+        
+
+      </section>
+      <!-- end Experience -->
+      
+
+
+      
+      <!-- begin Education -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Education</h2>
+        </header>
+
+        
+        <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
+          <h3 class="resume-item-title" itemprop="name">University of Texas at San Antonio</h3>
+          <h4 class="resume-item-details group" itemprop="description">Bachelor of Science, Mathematics &bull; 2014 &mdash; 2018</h4>
+          <h5 class="resume-item-details award-title" itemprop="description"></h5>
+          <p class="resume-item-copy" itemprop="description">
+            <ul class="resume-item-list">
+              
+            </ul>
+
+
+          <p class="resume-item-copy"></p>
+        </div>
+        
+      </section>
+      <!-- end Education -->
+      
+
+
+      
+
+      
+      <!-- begin Skills -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Skills</h2>
+        </header>
+        
+        <div class="resume-item">
+          <h4 class="resume-item-details">JavaScript with React, Angular</h4>
+          <p class="resume-item-copy"></p>
+        </div>
+        
+        <div class="resume-item">
+          <h4 class="resume-item-details">PHP</h4>
+          <p class="resume-item-copy"></p>
+        </div>
+        
+        <div class="resume-item">
+          <h4 class="resume-item-details">Python</h4>
+          <p class="resume-item-copy"></p>
+        </div>
+        
+        <div class="resume-item">
+          <h4 class="resume-item-details">Java</h4>
+          <p class="resume-item-copy"></p>
+        </div>
+        
+        <div class="resume-item">
+          <h4 class="resume-item-details">HTML/CSS/jQuery</h4>
+          <p class="resume-item-copy"></p>
+        </div>
+        
+        <div class="resume-item">
+          <h4 class="resume-item-details">AWS</h4>
+          <p class="resume-item-copy"></p>
+        </div>
+        
+        <div class="resume-item">
+          <h4 class="resume-item-details">Git/GitHub</h4>
+          <p class="resume-item-copy"></p>
+        </div>
+        
+        <div class="resume-item">
+          <h4 class="resume-item-details">Scrum Methodology</h4>
+          <p class="resume-item-copy"></p>
+        </div>
+        
+        <div class="resume-item">
+          <h4 class="resume-item-details">MySQL</h4>
+          <p class="resume-item-copy"></p>
+        </div>
+        
+        <div class="resume-item">
+          <h4 class="resume-item-details">Linux</h4>
+          <p class="resume-item-copy"></p>
+        </div>
+        
+        <div class="resume-item">
+          <h4 class="resume-item-details">API Design</h4>
+          <p class="resume-item-copy"></p>
+        </div>
+        
+        <div class="resume-item">
+          <h4 class="resume-item-details">Web Security</h4>
+          <p class="resume-item-copy"></p>
+        </div>
+        
+
+      </section>
+      <!-- end Skills -->
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <!-- begin Print Social Links -->
+      <section class="content-section print-only">
+
+        <header class="section-header">
+          <h2>Social Links</h2>
+        </header>
+
+        <div class="resume-item">
+        <!-- and guess where these are defined? Yup, you guessed it: the _config.yml file -->
+
+<ul>
+
+  <!-- GitHub link -->
+  
+  <li><strong>Github</strong>: https://github.com/craigcooper11</li>
+  
+
+  <!-- Twitter link -->
+  
+
+  <!-- Dribbble link -->
+  
+
+  <!-- Facebook link -->
+  
+
+  <!-- LinkedIn link -->
+  
+  <li><strong>LinkedIn</strong>: https://www.linkedin.com/in/craig-c-51b405146/</li>
+  
+
+  <!-- Instagram link -->
+  
+
+  <!-- Website link -->
+  
+
+</ul>
+
+
+        </div>
+
+      </section>
+      <!-- end Print Social Links -->
+      
+
+    </div>
+
+  </body>
+
+</html>

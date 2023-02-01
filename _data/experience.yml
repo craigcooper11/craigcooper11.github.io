@@ -1,0 +1,18 @@
+# Jobs
+- company: IBM
+  position: Software Engineer
+  duration: April, 2019 &mdash; Present
+  summary: <ul><li>Created python based OpenShift installer named OCP. OCP Installer provides menu-based CLI tool to make provisioning of Red Hat OpenShift clusters and IBM Cloud Paks for technology engineers, whether it's for a single cluster or hundreds of clusters. OCP Installer supports cluster creation on AWS, Azure, GCP, IBM Cloud and air-gap, and installs IBM Cloud Paks, Turbonomic and Instana with GitOps principles.</li>
+              <li>Created Electron based app to interface with OCP.</li>   
+              <li>Installed and configured software applications and tested solutions for functionality.</li> 
+              <li>Reviewed project specifications and designed technology solutions that met or exceeded performance expectations.</li> 
+              <li>Coordinated with other engineers to evaluate and improve software and hardware interfaces.</li> 
+            </ul>
+- company: BCS ProSoft
+  position: Software Engineer
+  duration:  August, 2017 &mdash; April, 2019
+  summary: <ul><li>Wrote highly maintainable, solid code for software system, forming core framework and earning consistent praise from subsequent developers since initial version.</li>
+          <li>Orchestrated efficient large-scale software deployments.</li>
+          <li>Revised, modularized and updated old code bases to modern development standards, reducing operating costs and improving functionality.</li>
+          </ul>
+  
